@@ -1,0 +1,26 @@
+name: Auto-update README
+
+on:
+  repository_dispatch:
+    types: [repository_created]
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Update README
+        run: |
+          echo "Updating README with new repository details..."
+          python scripts/update_readme.py
+
+      - name: Commit Changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git add README.md
+          git commit -m "Auto-update README with new repository details"
+          git push
