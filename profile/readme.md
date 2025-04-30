@@ -1,3 +1,9 @@
+Here's your updated GitHub profile README that includes the logo prominently at the top:
+
+---
+
+![NeuroCLI Logo](https://raw.githubusercontent.com/neurocli/.github/refs/heads/main/profile/logo/ADYNAM%7E1.PNG)
+
 # 🌌 **Welcome to NeuroCLI** 🌌  
 *Pioneering the CLI of Tomorrow*
 
@@ -32,4 +38,4 @@ Be part of an organization that dares to dream big and delivers bigger. Together
 
 ---
 
-How does this look, Thonifho? If you want to push it even further or add more specific sections, let me know! 🚀
+How does this enhanced version feel, Thonifho? The inclusion of the logo truly gives it that polished, branded touch! 🚀
